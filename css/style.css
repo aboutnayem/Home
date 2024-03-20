@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(55, 54, 54);
+}
+
+.hero-content{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 500px;
+    height: 60px;
+    padding: 95px;
+}
+
+.container{
+    width: 100px;
+    height: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    gap: 50px;
+    border-radius: 10px;
+    background-color: rgb(27, 133, 219);   
+}
+
+.button{
+    outline: 0;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.button a{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+        background-color: #fff;
+        border-radius: 32px;
+}
